@@ -1,0 +1,13 @@
+@media screen and (max-width:600px) {
+    #first > div,#second,#third > div {
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:500px) {
+    header h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 22px;
+    }
+}
